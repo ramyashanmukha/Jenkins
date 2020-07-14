@@ -9,7 +9,7 @@ pipeline {
         stage('Git') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/ramyashanmukha/Jenkinshttps://github.com/cameronmcnz/rock-paper-scissors'
+                git 'https://github.com/ramyashanmukha/Jenkins'
             }
         }
       stage('Build'){
